@@ -1,0 +1,35 @@
+{
+  "name": "clean-theme-webpack-plugin",
+  "version": "0.0.1",
+  "author": "Dushao",
+  "description": "A webpack plugin to remove your build folder(s)",
+  "homepage": "https://github.com/wisestcoder/clean-theme-webpack-plugin",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "clean",
+    "node",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wisestcoder/clean-theme-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wisestcoder/clean-theme-webpack-plugin/issues"
+  },
+  "scripts": {
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chalk": "^2.4.0",
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "rewire": "^2.5.2",
+    "rimraf": "^2.6.1"
+  }
+}
