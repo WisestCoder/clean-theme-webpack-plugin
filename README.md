@@ -22,7 +22,7 @@ const CleanThemeWebpackPlugin = require('clean-theme-webpack-plugin')
 plugins: [
   new CleanWebpackPlugin({
     root: './dist',
-    theme: [addtionalTheme, defaultTheme]
+    theme: ['blue', 'green']
   })
 ]
 ```
